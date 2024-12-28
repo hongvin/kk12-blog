@@ -8,9 +8,23 @@ path: home
   <h1>
     Welcome to
     <strong class="bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-purple-500">
-      {{title}}
+      KK12 News Blog
     </strong>
   </h1>
 
-  {% include "./_includes/partials/content.html" %}
+  <div class="w-full max-w-2xl grid grid-cols-1 lg:grid-cols-2 gap-4 my-8 px-4 lg:mx-0">
+
+    {% if quicklinks.links %}
+
+        {% for item in quicklinks.links %}
+            <a href="{{item.url}}" target="_blank" class="p-5 border rounded border-gray-200 hover:border-purple-400">
+                <h3>{{item.text}}
+                    →</h3>
+                <p>{{item.desc}}</p>
+            </a>
+        {% endfor %}
+
+    {% endif %}
+
+</div>
 </div>

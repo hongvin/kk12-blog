@@ -2,5 +2,7 @@
 items:
   - text: Forms
     url: "/forms"
+    desc: All KK12 Forms
   - text: Blog
     url: "/blog"
+    desc: Important Annoucement and News
