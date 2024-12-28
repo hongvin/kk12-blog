@@ -32,16 +32,20 @@ collections:
         options: ["Annoucement", "Public Info", "Academic", "Project Info"]
   - label: "Form Links"
     name: "links"
-    file: "src/_data/quicklinks.yaml"
-    fields:
-      - label: Nav Items
-        name: links
-        widget: list
-        collapsed: false
-        fields:
-          - { label: Title, name: title, widget: string }
-          - { label: URL, name: url, widget: string }
-          - { label: Description, name: desc, widget: string }
+    files: 
+    - label: "Links"
+      name: "links"
+      file: "src/_data/quicklinks.yaml"
+      fields:
+        - label: Nav Items
+          name: links
+          widget: list
+          allow_add: true
+          collapsed: false
+          fields:
+            - { label: Title, name: title, widget: string }
+            - { label: URL, name: url, widget: string }
+            - { label: Description, name: desc, widget: string }
 
   - label: "Settings"
     name: "settings"
@@ -55,7 +59,7 @@ collections:
           - label: Nav Items
             name: items
             widget: list
-            allow_add: false
+            allow_add: true
             collapsed: false
             fields:
               - { label: Title, name: text, widget: string }
