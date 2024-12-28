@@ -1,14 +1,20 @@
----
 links:
   - title: Check In Form
-    url: "https://www.netlifycms.org/"
-    desc: Open source content management for your Git workflow
+    url: https://forms.office.com/Pages/ResponsePage.aspx?id=qbE7psJIi0SGkzMXsAyn-5yK8NTmgstGnBaTtLqYbllUNVRXVUVIOVM0Q1dPWUcxVk5YUkVTME9WSiQlQCN0PWcu
+    desc: Use this form whenever you check in to KK12.
   - title: Check Out Form
-    url: "https://www.11ty.dev/"
-    desc: Eleventy is a simpler static site generator.
-  - title: Rental Form
-    url: "https://github.com/alpinejs/alpine"
-    desc: A minimal framework for composing JavaScript behavior in your markup.
-  - title: Tailwind CSS
-    url: "https://tailwindcss.com/"
-    desc: A utility-first CSS framework for rapidly building custom designs.
+    url: https://forms.office.com/Pages/ResponsePage.aspx?id=qbE7psJIi0SGkzMXsAyn-52YuxTysMBPgpmpU2wiWLJUNUZSTzU1QlQ5RkRPVk8wMDNBVVBTVzZWSi4u
+    desc: Use this form whenever you check out from KK12.
+  - title: Electrical Registration Form
+    url: https://forms.office.com/Pages/ResponsePage.aspx?id=qbE7psJIi0SGkzMXsAyn-52YuxTysMBPgpmpU2wiWLJUOEJUTVFCRVdJVlVTNlBBV1k4UEczSlZRMS4u
+    desc: New to semester? Register your electrical appliances.
+  - title: Semester Break/Special Semester Application
+    url: https://forms.office.com/Pages/ResponsePage.aspx?id=qbE7psJIi0SGkzMXsAyn-52YuxTysMBPgpmpU2wiWLJUNks3RzBERDNBVU1ERldNV0ZUVDBZVVBQRy4u
+    desc: Need to stay KK12 during semester break or special semester? Fill this
+      form.
+  - title: Room Key Acknowledgement Form
+    url: https://forms.office.com/Pages/ResponsePage.aspx?id=qbE7psJIi0SGkzMXsAyn-52YuxTysMBPgpmpU2wiWLJURFc2RUlNOEJSOUFIWUpEUDVHM0hHS1FSUy4u
+    desc: Get your key to room? Acknowledge here.
+  - title: Booking Form
+    url: https://forms.office.com/Pages/ResponsePage.aspx?id=qbE7psJIi0SGkzMXsAyn-52YuxTysMBPgpmpU2wiWLJUNVNKVTNFNU0wSTBaSVozMUFFQ05ZOERONi4u
+    desc: Need appliances for your college project? Apply here.
