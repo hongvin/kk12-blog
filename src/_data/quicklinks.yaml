@@ -1,12 +1,12 @@
 ---
 links:
-  - title: Netlify CMS
+  - title: Check In Form
     url: "https://www.netlifycms.org/"
     desc: Open source content management for your Git workflow
-  - title: Eleventy
+  - title: Check Out Form
     url: "https://www.11ty.dev/"
     desc: Eleventy is a simpler static site generator.
-  - title: Alpine.js
+  - title: Rental Form
     url: "https://github.com/alpinejs/alpine"
     desc: A minimal framework for composing JavaScript behavior in your markup.
   - title: Tailwind CSS
